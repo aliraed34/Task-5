@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    perspective: 700px;
+}
+
+.section1{
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.div1{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    animation-name: ani1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ani1{
+    0%{
+        left: 0;
+    }
+
+    100%{
+        left: 1200px;
+    }
+}
+
+.div2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    animation-name: ani2;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-direction: reverse;
+    animation-delay: 3s;
+}
+
+@keyframes ani2{
+    0%{
+        left: 0;
+    }
+
+    100%{
+        left: 1200px;
+    }
+}
+
+.div3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    animation-name: ani3;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+}
+
+@keyframes ani3{
+    0%{
+        left: 0;
+    }
+
+    100%{
+        left: 1200px;
+    }
+}
+
+.div4{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 600px;
+    animation-name: ani4;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-direction: reverse;
+    animation-delay: 9s;
+}
+
+@keyframes ani4{
+    0%{
+        left: 0;
+    }
+
+    100%{
+        left: 1200px;
+    }
+}
+
+.div5{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 800px;
+    animation-name: ani5;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+}
+
+@keyframes ani5{
+    0%{
+        left: 0;
+    }
+
+    100%{
+        left: 1200px;
+    }
+}
+
+.div6{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 1000px;
+    animation-name: ani6;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-direction: reverse;
+    animation-delay: 15s;
+}
+
+@keyframes ani6{
+    0%{
+        left: 0;
+    }
+
+    100%{
+        left: 1200px;
+    }
+}
+
+.div7{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 1200px;
+    animation-name: ani7;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 18s;
+}
+
+@keyframes ani7{
+    0%{
+        left: 0;
+    }
+
+    100%{
+        left: 1200px;
+    }
+}
+
+.div8{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 1400px;
+    animation-name: ani8;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-direction: reverse;
+    animation-delay: 21s;
+}
+
+@keyframes ani8{
+    0%{
+        left: 0;
+    }
+
+    100%{
+        left: 1200px;
+    }
+}
